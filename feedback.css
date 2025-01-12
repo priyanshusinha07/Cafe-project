@@ -1,0 +1,107 @@
+/* Reset Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('feedback101.jpg');
+    /* width: 300px;
+    height: 200px;
+    /* background-image: url('path/to/your/image.jpg'); */
+    background-size: cover;                        
+    background-position: center; /* Center the image
+    /* background-repeat: no-repeat; Prevent the image from repeating */ 
+}
+
+/* Feedback Section */
+#feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.feedback-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: yellow;
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    background-color: aqua;
+}
+
+/* Rating Stars */
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s;
+    background-color: green;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #f7d106;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

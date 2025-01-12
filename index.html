@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sinha Cafe</h1>
+    </header>
+    <main>
+        <!-- Table Booking Section -->
+        <section id="table-booking" class="table-booking">
+            <h2>Book a Table</h2>
+            <form id="tableForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" min="1" required>
+
+                <button type="submit">Book Table</button>
+            </form>
+            <p id="tableResult"></p>
+            
+            <div class="menu-box">
+                 
+                <p>Please click below to check our menu:</p>
+                <a href="/menu.html" target="_blank"> Check menu </a>
+            </div>
+            
+            
+        </section>
+
+        
+        
+    
+         
+         
+         
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

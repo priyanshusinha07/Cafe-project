@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    background-image: url('pic.jpg');
+}
+
+.payment-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    background: aqua;
+}
+
+.payment-option {
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#orderSummary {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: yellowgreen;
+}
+
+.qr-code {
+    width: 150px;
+    height: 150px;
+}
+
+.delivery-box {
+    background: #f9f9f9;
+    padding: 10px 25px;
+    margin: 9px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+a{
+     
+    background: yellowgreen;
+    padding: 6px 14px;
+    margin: 9px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: aqua
+}
+
+a:hover {
+    background: yellowgreen;
+}
+
+p{
+     
+    background: yellowgreen;
+    padding: 0px 6px;
+    margin: 9px 0;
+    border: 0px solid #ddd;
+    border-radius: 37px;
+    background-color: aqua;
+}
+.delivery-box {
+    display: none; /* Hidden initially */
+}

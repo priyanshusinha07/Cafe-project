@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url('cafe.jpg');
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.table-booking-section {
+    background-image: url('cafe2.webp'); /* Replace with the image file name or URL */
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    padding: 40px;
+    border-radius: 8px;
+    color: white; /* Ensures text is visible on the background */
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: skyblue;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: orange;
+    background: yellow
+    ;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+.menu-item {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.menu-box {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+a{
+    background: lavender;
+    padding: 11px 63px;
+    margin: 34px 0;
+    border: 2px solid #ddd;
+    border-radius: 60px;
+    background-color: skyblue;
+}
+
+a:hover {
+    background: yellowgreen;
+}

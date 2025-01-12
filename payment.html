@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <section id="payment">
+        <div class="payment-container">
+            <h1>Payment</h1>
+            <div id="orderSummary">
+                <h2>Order Summary</h2>
+                <p id="orderDetails">Your order details will appear here.</p>
+                <h3>Total Amount: <span id="totalAmount">₹</span></h3>
+            </div>
+
+            <!-- QR Code Payment Section -->
+            <div class="payment-option">
+                <h2>Pay Using QR Code</h2>
+                <img src="QR.jpg" alt="QR Code" class="qr-code">
+                <p>Scan this QR code with Paytm or PhonePe to complete your payment.</p>
+            </div>
+            
+            <!-- Paytm/PhonePe Payment Section -->
+            <div class="payment-option">
+                <h2>Pay via Paytm or PhonePe</h2>
+                <label for="phoneNumber">Enter Phone Number:</label>
+                <input type="tel" id="phoneNumber" placeholder="Enter your phone number" required>
+                <button id="paytmButton" class="pay-button">Pay Now</button>
+            </div>
+            
+            <!-- Debit/Credit Card Payment Section -->
+            <form id="paymentForm" class="payment-option">
+                <h2>Pay with Debit/Credit Card</h2>
+                <label for="cardName">Cardholder Name:</label>
+                <input type="text" id="cardName" placeholder="Enter your name" required>
+
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16" required>
+
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="month" id="expiryDate" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" maxlength="3" placeholder="123" required>
+
+                <button type="submit" class="submit-button">Pay Now</button>
+            </form>
+        </div>
+
+        <p id="paymentResult"></p>
+        <a id="receiptLink" href="#" target="_blank" style="display: none;">View Receipt</a>
+
+
+
+        <div class="delivery-box">
+            <p id="delivery"></p>
+            <a href="/delivery.html" target="_blank"> "If you're done with the payment, please check your delivery order."</a>
+        </div>    
+
+
+
+
+    </section>
+
+    <script src="payment.js"></script>
+</body>
+</html>

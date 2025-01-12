@@ -1,0 +1,106 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135vh;
+    background-image: url('menu101.jpg');
+}
+
+/* Center Box Styling */
+.center-box {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    background: pink;
+}
+
+/* Menu Section Styling */
+#menu h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+#menu h3 {
+    margin: 15px 0;
+    color: #555;
+    text-align: left;
+}
+
+#menu div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#menu label {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+#menu button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#menu button:hover {
+    background-color: #218838;
+}
+
+#menu a {
+    display: block;
+    margin-top: -4spx;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#orderResult {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* .delivery-box {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+.delivery-box {
+    display: none; /* Initially hidden */
+    /* margin-top: 10px;
+    text-align: center;
+}
+
+.delivery-box a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+} */ 
+
+
+

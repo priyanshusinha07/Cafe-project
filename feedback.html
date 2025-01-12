@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <section id="feedback">
+        <div class="feedback-container">
+            <h1>Give Us Your Feedback</h1>
+            <form id="feedbackForm">
+                <!-- Feedback Text -->
+                <div class="form-group">
+                    <label for="feedbackText">Your Comments:</label>
+                    <textarea id="feedbackText" rows="4" placeholder="Share your experience..." required></textarea>
+                </div>
+
+                <!-- Ratings -->
+                <div class="form-group">
+                    <h2>Rate Us</h2>
+
+                    <!-- Café Condition Rating -->
+                    <label for="cafeRating">Café Condition:</label>
+                    <div class="rating">
+                        <input type="radio" id="cafe5" name="cafeRating" value="5"><label for="cafe5">★</label>
+                        <input type="radio" id="cafe4" name="cafeRating" value="4"><label for="cafe4">★</label>
+                        <input type="radio" id="cafe3" name="cafeRating" value="3"><label for="cafe3">★</label>
+                        <input type="radio" id="cafe2" name="cafeRating" value="2"><label for="cafe2">★</label>
+                        <input type="radio" id="cafe1" name="cafeRating" value="1"><label for="cafe1">★</label>
+                    </div>
+
+                    <!-- Staff Rating -->
+                    <label for="staffRating">Staff:</label>
+                    <div class="rating">
+                        <input type="radio" id="staff5" name="staffRating" value="5"><label for="staff5">★</label>
+                        <input type="radio" id="staff4" name="staffRating" value="4"><label for="staff4">★</label>
+                        <input type="radio" id="staff3" name="staffRating" value="3"><label for="staff3">★</label>
+                        <input type="radio" id="staff2" name="staffRating" value="2"><label for="staff2">★</label>
+                        <input type="radio" id="staff1" name="staffRating" value="1"><label for="staff1">★</label>
+                    </div>
+
+                    <!-- View Rating -->
+                    <label for="viewRating">View:</label>
+                    <div class="rating">
+                        <input type="radio" id="view5" name="viewRating" value="5"><label for="view5">★</label>
+                        <input type="radio" id="view4" name="viewRating" value="4"><label for="view4">★</label>
+                        <input type="radio" id="view3" name="viewRating" value="3"><label for="view3">★</label>
+                        <input type="radio" id="view2" name="viewRating" value="2"><label for="view2">★</label>
+                        <input type="radio" id="view1" name="viewRating" value="1"><label for="view1">★</label>
+                    </div>
+
+                    <!-- Sitting Arrangement Rating -->
+                    <label for="sittingRating">Sitting Arrangement:</label>
+                    <div class="rating">
+                        <input type="radio" id="sitting5" name="sittingRating" value="5"><label for="sitting5">★</label>
+                        <input type="radio" id="sitting4" name="sittingRating" value="4"><label for="sitting4">★</label>
+                        <input type="radio" id="sitting3" name="sittingRating" value="3"><label for="sitting3">★</label>
+                        <input type="radio" id="sitting2" name="sittingRating" value="2"><label for="sitting2">★</label>
+                        <input type="radio" id="sitting1" name="sittingRating" value="1"><label for="sitting1">★</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-button">Submit Feedback</button>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="feedback.js"></script>
+</html>
