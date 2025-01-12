@@ -1,0 +1,107 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('dod.png');
+    background-size: cover;                        
+    background-position: center;
+}
+
+/* Main Section */
+#delivery-time {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+    background: yellow;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Info Box */
+.info-box, .tracking-box, .support-box, .faq-box, .feedback-box {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: lightpink;
+}
+
+/* Tracking Status */
+.status {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+/* Support List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Payment Link */
+.feedback-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.feedback-link:hover {
+    background: #218838;
+}
+
+/* FAQ Details */
+details {
+    margin: 10px 0;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+summary:hover {
+    color: #007BFF;
+}
