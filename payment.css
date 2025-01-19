@@ -75,7 +75,8 @@ a{
     margin: 9px 0;
     border: 1px solid #ddd;
     border-radius: 4px;
-    background-color: aqua
+    background-color: aqua;
+     text-decoration: none;
 }
 
 a:hover {
